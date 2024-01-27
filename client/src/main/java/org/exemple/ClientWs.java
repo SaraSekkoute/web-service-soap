@@ -18,8 +18,6 @@ public class ClientWs {
         for (Compte c : compteList) {
             System.out.println("Code =" + c.getCode());
             System.out.println("Solde =" + c.getSolde());
-            System.out.println("Date Du Creation = " + c.getDateCreation());
-
-        }
+            System.out.println("Date Du Creation = " + c.getDateCreation());}
     }
 }
